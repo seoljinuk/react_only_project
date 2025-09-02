@@ -28,6 +28,8 @@ function App(){
     const result05 = foods.map((item) => `맛있는 ${item} 좋아요`);
     console.log(result05);  
 
+    12345
+
     return(
         <div className="App">
             배열 함수(map)
