@@ -43,8 +43,8 @@ function App(){
     console.log('컴포넌트별 분리하기');
 
     return(
-        <div name="김철수">
-            <Top money="100" />
+        <div>
+            <Top />
             <Content />
             <Bottom />
         </div> 
