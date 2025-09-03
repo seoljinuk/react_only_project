@@ -10,6 +10,7 @@ export const menuData = [
             {path:'/make_function', label:'함수 만들기'},             
             {path:'/arrow_function', label:'화살표 함수'},             
             {path:'/array_map', label:'배열 함수(map)'},             
+            {path:'/spread_operator', label:'전개 연산자'},             
         ]
     },
     {
@@ -17,7 +18,7 @@ export const menuData = [
         items : [
             {path:'/components01', label:'클래스형 컴포넌트'},  
             {path:'/components02', label:'함수형 컴포넌트'},  
-            {path:'/xxx', label:'yyy'},  
+            {path:'/component_separate', label:'컴포넌트별 분리하기'},  
         ]
     },
     // 여기에 4장, 5장... 내용을 계속 추가하면 됩니다. 

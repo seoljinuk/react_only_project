@@ -5,3 +5,11 @@
     margin: 10px;
     margin-bottom: 20px;
 }
+
+/* img 태그의 이미지 크기를 특정 픽셀로 지정 */
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* 이미지 비율 유지하면서 잘림 발생 가능 */
+    margin: 10px auto 10px auto;
+}

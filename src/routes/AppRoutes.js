@@ -12,8 +12,13 @@ import AppSubjectList from './../components/ch02.es6_syntax/make_subject_list';
 import AppMakeFunction from './../components/ch02.es6_syntax/make_function';
 import AppArrowFunction from './../components/ch02.es6_syntax/arrow_function';
 import AppArrayMap from './../components/ch02.es6_syntax/array_map';
+import AppSpreadOperator from './../components/ch02.es6_syntax/spread_operator';
 
-
+// ch03장
+import AppClassComponent from './../components/ch03.component/components01';
+import AppFunctionComponent from './../components/ch03.component/components02';
+import AppComponentSeparate from './../components/ch03.component/component_separate';
+ 
 function AppRoutes(){   
     return(
         <Routes>
@@ -24,6 +29,12 @@ function AppRoutes(){
             <Route path='/make_function' element={<AppMakeFunction />} />
             <Route path='/arrow_function' element={<AppArrowFunction />} />
             <Route path='/array_map' element={<AppArrayMap />} />
+            <Route path='/spread_operator' element={<AppSpreadOperator />} />
+            
+            <Route path='/components01' element={<AppClassComponent />} />
+            <Route path='/components02' element={<AppFunctionComponent />} />
+            <Route path='/component_separate' element={<AppComponentSeparate />} />
+
         </Routes>
     );  
 };
