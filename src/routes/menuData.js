@@ -22,6 +22,17 @@ export const menuData = [
             { path: '/file_separator', label: '파일 분리' },
             { path: '/use_props', label: 'props 사용하기' },
             { path: '/array_and_table_01', label: '테이블 만들기 01' },
+            { path: '/array_and_table_02', label: '테이블 만들기 02' },
+        ]
+    },
+    {
+        chapter: "ch04. Event",
+
+        items: [
+            { path: '/click_event', label: '클릭 이벤트' },
+            { path: '/change_event', label: '체인지 이벤트' },
+            { path: '/mouse_event', label: '마우스 이벤트' },
+            { path: '/key_event', label: '키보드 이벤트' },
         ]
     },
     // 여기에 4장, 5장... 내용을 계속 추가하면 됩니다. 
