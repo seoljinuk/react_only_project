@@ -26,6 +26,7 @@ import AppClickEvent from './../components/ch04.event_handling/click_event';
 import AppChangeEvent from './../components/ch04.event_handling/change_event';
 import AppMouseEvent from './../components/ch04.event_handling/mouse_event';
 import AppKeyEvent from './../components/ch04.event_handling/key_event';
+import AppComboChange from './../components/ch04.event_handling/combo_change';
 
 function AppRoutes() {
     return (
@@ -34,6 +35,7 @@ function AppRoutes() {
             <Route path='/change_event' element={<AppChangeEvent />} />
             <Route path='/mouse_event' element={<AppMouseEvent />} />
             <Route path='/key_event' element={<AppKeyEvent />} />
+            <Route path='/combo_change' element={<AppComboChange />} />
 
             {/* element 속성에는 컴포넌트 자체가 아니라 JSX 요소를 넣어야 합니다. */}
             <Route path='/' element={<AppLetConst />} />
