@@ -36,17 +36,24 @@ import AppChangeEvent from './../components/ch04.event_handling/change_event';
 import AppMouseEvent from './../components/ch04.event_handling/mouse_event';
 import AppKeyEvent from './../components/ch04.event_handling/key_event';
 import AppComboChange from './../components/ch04.event_handling/combo_change';
+import AppSubmitEvent from './../components/ch04.event_handling/submit_event';
 
+import AppUseState01 from './../components/ch05.hooks/use_state_01';
+import AppUseState02 from './../components/ch05.hooks/use_state_02';
 
 function AppRoutes() {
     return (
         <Routes>
+            {/* 제05장 */}
+            <Route path='/use_state_01' element={<AppUseState01 />} />
+            <Route path='/use_state_02' element={<AppUseState02 />} />
+
             {/* 제01장 */}
             <Route path='/make_array_01' element={<AppMakeArray01 />} />
             <Route path='/math_object_01' element={<AppMathObject01 />} />
             <Route path='/if_exercise' element={<AppIfExercise />} />
             <Route path='/switch_exercise' element={<AppSwitchExercise />} />
-            <Route path='/typeof_number' element={<AppTypeOfNumber />} /> 
+            <Route path='/typeof_number' element={<AppTypeOfNumber />} />
 
             {/* 제04장 */}
             <Route path='/click_event' element={<AppClickEvent />} />
@@ -54,6 +61,7 @@ function AppRoutes() {
             <Route path='/mouse_event' element={<AppMouseEvent />} />
             <Route path='/key_event' element={<AppKeyEvent />} />
             <Route path='/combo_change' element={<AppComboChange />} />
+            <Route path='/submit_event' element={<AppSubmitEvent />} />
 
             {/* element 속성에는 컴포넌트 자체가 아니라 JSX 요소를 넣어야 합니다. */}
             {/* 제02장 */}
