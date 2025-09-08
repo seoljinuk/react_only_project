@@ -40,6 +40,7 @@ import AppSubmitEvent from './../components/ch04.event_handling/submit_event';
 
 import AppUseState01 from './../components/ch05.hooks/use_state_01';
 import AppUseState02 from './../components/ch05.hooks/use_state_02';
+import AppUseState03 from './../components/ch05.hooks/use_state_03';
 
 function AppRoutes() {
     return (
@@ -47,6 +48,7 @@ function AppRoutes() {
             {/* 제05장 */}
             <Route path='/use_state_01' element={<AppUseState01 />} />
             <Route path='/use_state_02' element={<AppUseState02 />} />
+            <Route path='/use_state_03' element={<AppUseState03 />} />
 
             {/* 제01장 */}
             <Route path='/make_array_01' element={<AppMakeArray01 />} />

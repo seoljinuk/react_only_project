@@ -51,6 +51,7 @@ export const menuData = [
         items: [
             { path: '/use_state_01', label: '스테이트 실습 01' },
             { path: '/use_state_02', label: '스테이트 실습 02' },
+            { path: '/use_state_03', label: '스테이트 실습 03' },
         ]
     },
     // 여기에 4장, 5장... 내용을 계속 추가하면 됩니다. 
