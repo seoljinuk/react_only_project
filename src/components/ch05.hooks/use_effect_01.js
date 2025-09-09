@@ -30,7 +30,12 @@ function App() {
 
     const MyTimer = () => {
         // setTimeout(동작, 인터벌) ;
-        setTimeout(SomeAction, interval);
+        const timerId = setTimeout(SomeAction, interval);
+
+        setTimeout(() => {
+            clearTimeout(timerId);
+            console.log(`타이머 종료(5초 경과)`)
+        }, 5000);
     }
 
     useEffect(MyTimer);
