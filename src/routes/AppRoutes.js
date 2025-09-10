@@ -38,6 +38,7 @@ import AppKeyEvent from './../components/ch04.event_handling/key_event';
 import AppComboChange from './../components/ch04.event_handling/combo_change';
 import AppSubmitEvent from './../components/ch04.event_handling/submit_event';
 
+// ch04장
 import AppUseState01 from './../components/ch05.hooks/use_state_01';
 import AppUseState02 from './../components/ch05.hooks/use_state_02';
 import AppUseState03 from './../components/ch05.hooks/use_state_03';
@@ -46,9 +47,17 @@ import AppUseEffect01 from './../components/ch05.hooks/use_effect_01';
 import AppUseEffect02 from './../components/ch05.hooks/use_effect_02';
 import AppUseEffect03 from './../components/ch05.hooks/use_effect_03';
 
+// ch05장
+import AppCafe01 from './../components/ch06.bootstrap/coffee_bread_01/main';
+import AppCafe02 from './../components/ch06.bootstrap/coffee_bread_02/main';
+
 function AppRoutes() {
     return (
         <Routes>
+            {/* 제06장 */}
+            <Route path='/coffee_bread_01' element={<AppCafe01 />} />
+            <Route path='/coffee_bread_02' element={<AppCafe02 />} />
+
             {/* 제05장 */}
             <Route path='/use_state_01' element={<AppUseState01 />} />
             <Route path='/use_state_02' element={<AppUseState02 />} />
