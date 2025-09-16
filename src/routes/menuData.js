@@ -9,6 +9,9 @@ export const menuData = [
             { path: '/if_exercise', label: 'If 구문 실습' },
             { path: '/switch_exercise', label: 'Switch 구문 실습' },
             { path: '/typeof_number', label: 'Typeof와 Number 실습' },
+            { path: '/form_exam', label: 'Form 양식 실습' },
+            { path: '/list_exam', label: '목록(ol, ul) 실습' },
+            { path: '/table_exam', label: '테이블 실습' },
         ]
     },
     {

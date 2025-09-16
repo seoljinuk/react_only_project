@@ -212,10 +212,10 @@ function App() {
         Ordering(orderInfo);
     }
 
-    // 필터링을 수행해야 하는 지를 결정하기 위한 부울 변구
-    const isFilteringNeeded = filterCategory && filterCategory !== "all";
+    //  필드 검색을 사용하여 필터링을 수행할지 말지를 결정하는 부울 타입의 변수
+    const isFilteringNeeded = filterCategory && filterCategory !== 'all';
 
-    // 삼항 연산자를 이용하여 필터링 동작을 수행할지를 결정합니다. 
+    // 삼항 연산자를 사용하여 선택된 카테고리와 동일한 품목들만 필터링합니다.
     const filteredProducts = isFilteringNeeded
         ? products.filter((item) => item.category === filterCategory)
         : products;
